@@ -22,7 +22,10 @@ body {
 /* --------- Game layout */
 
 .game-area {
-    background: radial-gradient(circle, rgb(10, 23, 88) 0%, rgb(14, 14, 54) 0%, rgb(3, 8, 22) 27%, rgb(24, 24, 24) 48%, rgb(29, 29, 29) 66%);
+    /*background: radial-gradient(circle, rgb(10, 23, 88) 0%, rgb(14, 14, 54) 0%, rgb(3, 8, 22) 27%, rgb(24, 24, 24) 48%, rgb(29, 29, 29) 66%);*/
+    background-image: url(/assets/images/super-mario.jpg);
+    background-position: center center bottom left;
+    background-size: cover;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -117,6 +120,15 @@ span{
     font-size: 3.2rem;
     margin: 0 30px;
     transition: all 0.5s;
+}
+
+.btn--big::after{
+    content: attr(data-type);
+    font-size: 1rem;
+    color: rgb(168, 168, 168);
+    position: relative;
+    font-weight: 600;
+    left: -0.5em;
 }
 
 .btn--blue {
