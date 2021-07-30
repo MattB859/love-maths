@@ -24,7 +24,7 @@ body {
 .game-area {
     /*background: radial-gradient(circle, rgb(10, 23, 88) 0%, rgb(14, 14, 54) 0%, rgb(3, 8, 22) 27%, rgb(24, 24, 24) 48%, rgb(29, 29, 29) 66%);*/
     background-image: url(/assets/images/mario.jpg);
-    background-position: center center bottom left;
+    background-position: bottom ;
     background-size: cover;
     box-sizing: border-box;
     width: 85%;
@@ -125,7 +125,7 @@ span{
 .btn--big::after{
     content: attr(data-type);
     font-size: 1rem;
-    color: rgb(168, 168, 168);
+    color: rgb(230, 230, 230);
     position: relative;
     font-weight: 600;
     left: -0.5em;
