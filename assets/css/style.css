@@ -23,7 +23,7 @@ body {
 
 .game-area {
     /*background: radial-gradient(circle, rgb(10, 23, 88) 0%, rgb(14, 14, 54) 0%, rgb(3, 8, 22) 27%, rgb(24, 24, 24) 48%, rgb(29, 29, 29) 66%);*/
-    background: url("/assets/images/mario.jpg");
+    background: black url("/assets/images/mario.jpg");
     background-position: bottom ;
     box-shadow: 5px 5px 15px rgb(66, 66, 66);
     background-size: cover;
