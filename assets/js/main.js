@@ -72,7 +72,7 @@ function checkAnswer() {
     }
 
     runGame(calculatedAnswer[1]);
-
+    
 }
 
 /**
